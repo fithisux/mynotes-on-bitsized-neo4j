@@ -2,7 +2,7 @@ version: '2'
 services:
   neo4j:
     environment:
-      - NEO4JLABS_PLUGINS=["apoc", "n10s"]
+      - NEO4JLABS_PLUGINS=["apoc", "n10s", "graph-data-science"]
     image: neo4j:latest
     ports:
       - '7474:7474'

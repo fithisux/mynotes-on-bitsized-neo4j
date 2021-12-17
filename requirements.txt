@@ -1,3 +1,4 @@
 jupyterlab
 neo4j
 pandas
+py2neo

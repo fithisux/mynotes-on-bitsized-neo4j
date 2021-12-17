@@ -15,7 +15,7 @@ http://localhost:7474/browser/
 ```
 with the defaults neo4j/neo4j credentials. Now you can setup a pasword that will be used by your jupyter lab notebook.
 
-The code has been tested with Pyton 3.10.0 and covers up to and including lesson 13 about centrality. A __requirements.txt__ is included.
+The code has been tested with Python 3.10.0 and covers up to and including lesson 13 about centrality. A __requirements.txt__ is included.
 
 >> It is advised to create a virtualenv through
 >```

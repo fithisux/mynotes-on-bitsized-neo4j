@@ -8,14 +8,15 @@ The second called __for-local.ipynb__ is used against an empty instance of Neo4J
 docker-compose up -d
 ```
 
-connect to 
+connect to
 
 ```
 http://localhost:7474/browser/
 ```
 with the defaults neo4j/neo4j credentials. Now you can setup a pasword that will be used by your jupyter lab notebook.
 
-The code has been tested with Python 3.10.0 and covers up to and including lesson 17 about Fast Random Projections. Lesson 18 has in the [bit-sized repo](https://github.com/cj2001/bite_sized_data_science) a dedicated notbook that can be used with the docker-compose.yml provided here. A __requirements.txt__ is included.
+The code has been tested with Python 3.10.3 and covers up to and including lesson 18 about Fast Random Projections. Lesson 18 has in the [bit-sized repo](https://github.com/cj2001/bite_sized_data_science) a dedicated notbook that can be used with the docker-compose.yml provided here But this one does not work with GDS2.0. So I provide a modified one.
+A __requirements.txt__ is included.
 
 >> It is advised to create a virtualenv through
 >```

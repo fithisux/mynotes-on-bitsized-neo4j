@@ -2,3 +2,6 @@ jupyterlab
 neo4j
 pandas
 py2neo
+graphdatascience
+scikit-learn
+seaborn
